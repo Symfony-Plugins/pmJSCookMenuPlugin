@@ -11,7 +11,7 @@ function _load_jscookmenu_resources($theme)
       sfContext::getInstance()->getResponse()->addStylesheet('/pmJSCookMenuPlugin/css/ThemeGray/theme');
     break;
     case 'cmThemeIE':
-      sfContext::getInstance()->getResponse()->addJavascript('/pmJSCookMenuPlugin/js/ThemeiE/theme');
+      sfContext::getInstance()->getResponse()->addJavascript('/pmJSCookMenuPlugin/js/ThemeIE/theme');
       sfContext::getInstance()->getResponse()->addStylesheet('/pmJSCookMenuPlugin/css/ThemeIE/theme');
     break;
     case 'cmThemeMiniBlack':
